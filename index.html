@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./index.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap" rel="stylesheet">
+ 
+    <style>
+      body {
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(27, 92, 158);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Rubik Moonrocks', cursive;
+      }
+
+      .div {
+        background-color: rgb(255, 255, 255);
+        width: 600px;
+        border-radius: 20px;
+        height: 180px;
+        padding: 20px 15px;
+        position: relative;
+      }
+
+     
+
+      /* CSS */
+      .button-3 {
+        appearance: none;
+        background-color: #2ea44f;
+        border: 1px solid rgba(27, 31, 35, 0.15);
+        border-radius: 6px;
+        box-shadow: rgba(27, 31, 35, 0.1) 0 1px 0;
+        box-sizing: border-box;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial,
+          sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 20px;
+        padding: 6px 16px;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        vertical-align: middle;
+        white-space: nowrap;
+        margin-bottom: 2px;
+      }
+      .Tweet {
+        margin-bottom: 2px;
+
+        appearance: none;
+        background-color: #13abe7;
+        border: 1px solid rgba(27, 31, 35, 0.15);
+        border-radius: 6px;
+        box-shadow: rgba(27, 31, 35, 0.1) 0 1px 0;
+        box-sizing: border-box;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial,
+          sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 20px;
+        padding: 6px 16px;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        vertical-align: middle;
+        white-space: nowrap;
+      }
+      .Quotes {
+      color: #F62817;
+        margin: 20px 18px;
+        text-align: center;
+        font-size: 24px;
+      }
+      .Author {
+      color: #3266ba;
+
+        display: block;
+        text-align: center;
+
+        margin: 7px 16px 10px 16px;
+      }
+      .btn {
+        position: absolute;
+        bottom: 2px;
+        left: 50%; 
+        transform: translate(-50%, -50%);
+        /* left: 10px;
+        bottom: 10px;
+        margin-top: 15px;
+        margin-bottom: 4px; */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="div">
+        <div class="Quotes"></div>
+        <div class="Author"></div>
+        <div class="btn">
+          <button class="button-3 NewQ" role="button">New Quotes</button>
+          <button class="Tweet" role="button">Tweet</button>
+        </div>
+      </div>
+    </div>
+
+   
+  </body>
+</html>
